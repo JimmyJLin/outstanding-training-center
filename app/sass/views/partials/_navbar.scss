@@ -1,0 +1,73 @@
+// nav_bar stylings
+#nav_bar{
+  padding: 0 15px;
+
+  #image_logo{
+    img{
+      padding-top: 0%;
+      width: 30%;
+    }
+  }
+  .nav_right{
+    font-size: 1.25em;
+  }
+}
+
+
+/* Mobile & Tablet @media imports - starts */
+// iPhone 4
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #nav_bar{
+    #image_logo{
+      img{
+        padding-top: 3%;
+      }
+    }
+  }
+}
+// iPhone 5 & 5S
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #nav_bar{
+    #image_logo{
+      img{
+        padding-top: 2.5%;
+      }
+    }
+    .nav_right{
+      font-size: .75em;
+    }
+  }
+}
+// iPhone 6 & 6S
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #nav_bar{
+    #image_logo{
+      img{
+        padding-top: 2%;
+      }
+    }
+  }
+}
+// iPhone 6plus
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  #nav_bar{
+    #image_logo{
+      img{
+        padding-top: 1.5%;
+      }
+    }
+  }
+}
+// Tablets
+@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #nav_bar{
+
+  }
+}
+// Tablets - iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  #nav_bar{
+
+  }
+}
+/* Mobile & Tablet @media imports - ends */

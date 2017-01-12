@@ -1,0 +1,51 @@
+$main_background_color: transparent;
+$main_font_color: #0080FF;
+
+
+
+// index landing page
+#about{
+  margin-top: 90px;
+
+  h3{
+    margin:0 auto;
+    background-color: $main_background_color;
+    z-index:0;
+    text-align:center;
+    font-size:4em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: $main_font_color;
+    opacity:0.7;
+  }
+
+
+
+}
+
+
+/* Mobile & Tablet @media imports - starts */
+// iPhone 4
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 5 & 5S
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6 & 6S
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6plus
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+// Tablets
+@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+// Tablets - iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+}
+/* Mobile & Tablet @media imports - ends */

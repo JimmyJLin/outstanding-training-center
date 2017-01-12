@@ -1,0 +1,91 @@
+// styling for footer
+$footer_background_color: #666;
+$footer_font_color: #f2f2f2;
+$footer_disclaimer_color: #999;
+
+#footer{
+  // padding: 0 25px;
+  // padding-top: 60px;
+  // background-color: $footer_background_color;
+  // height: 250px;
+  // width: 100%;
+  // color: $footer_font_color;
+  //
+  // #footer_horizontal_menu{
+  //   padding-bottom: 15px;
+  //   .footer_menu{
+  //     display: flex;
+  //     list-style-type: none;
+  //   }
+  //   #divider{
+  //     padding-left: 20px;
+  //     padding-right: 20px;
+  //   }
+  // }
+  //
+  // #footer_disclaimer{
+  //   color: $footer_disclaimer_color;
+  // }
+  html {
+    position: relative;
+  }
+  body{
+    margin-bottom: 60px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 98px;
+    background-color: $footer_background_color;
+
+    #copyright{
+      p{
+        text-align: center;
+        color: $footer_disclaimer_color;
+      }
+    }
+    #img_container{
+      display: flex;
+      img {
+        margin-right: 5px;
+        font-size: 1rem;
+        color: blue;
+        text-shadow: none;
+        background-image: none;
+        box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+        height: 40px;
+        width: 40px;
+        border-radius: 10em;
+      }
+    }
+  }
+}
+
+
+/* Mobile & Tablet @media imports - starts */
+// iPhone 4
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 5 & 5S
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6 & 6S
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6plus
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+// Tablets
+@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+// Tablets - iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+}
+/* Mobile & Tablet @media imports - ends */
