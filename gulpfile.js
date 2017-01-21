@@ -44,6 +44,21 @@ gulp.task('flexslidercss:build', ['flexslidercss'], function(){
     .pipe(gulp.dest('./public/css'))
 })
 
+gulp.task('fonts', function() {
+  gulp.src([
+    './app/sass/fonts/**/*'
+  ])
+  .pipe(gulp.dest('./public/sass/fonts'))
+  .pipe($.livereload())
+})
+gulp.task('fonts:build', ['fonts'], function() {
+  return gulp.src('app/sass/fonts/**/*')
+             .pipe($.rev())
+             .pipe(gulp.dest('./public/css/fonts'))
+             .pipe($.rev.manifest())
+             .pipe(gulp.dest('./public/css/fonts'))
+})
+
 // javascript
 gulp.task('scripts', function(){
   gulp.src('app/js/main.js')

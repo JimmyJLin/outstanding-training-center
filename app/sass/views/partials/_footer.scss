@@ -1,7 +1,5 @@
-// styling for footer
-$footer_background_color: #666;
-$footer_font_color: #f2f2f2;
-$footer_disclaimer_color: #999;
+// import variables
+@import "variables";
 
 #footer{
   html {
@@ -11,6 +9,7 @@ $footer_disclaimer_color: #999;
     margin-bottom: 60px;
   }
   .footer {
+    padding-top: 25px;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -52,6 +51,7 @@ $footer_disclaimer_color: #999;
     }
     #copyright{
       p{
+        padding-top: 50px;
         text-align: center;
         color: $footer_disclaimer_color;
       }

@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "gulp serve",
-    "build": "gulp css:build && gulp images:build && gulp scripts:build && gulp jquery:build && gulp flexslider:build && gulp flexslidercss:build",
+    "build": "gulp css:build && gulp images:build && gulp scripts:build && gulp jquery:build && gulp flexslider:build && gulp flexslidercss:build && gulp fonts:build",
     "postinstall": "npm run build"
   },
   "engines": {
