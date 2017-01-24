@@ -3,7 +3,7 @@
 
 // index landing page
 #index{
-  margin-top: 90px;
+  margin-top: 60px;
 
   h3{
     margin:0 auto;
@@ -15,9 +15,95 @@
     color: $main_font_color;
     opacity:0.7;
   }
+  .row{
+    h1, p{
+      text-align: center;
+      padding: 0 10%;
+      font-family: "Raleway", Arial, Tahoma, sans-serif;
+    }
+    h1{
+      font-size: 3em;
+      padding-bottom: 15px;
+    }
+    p{
+      font-size: 1.15em;
+    }
+    span{
+      text-align: center;
+      font-size: .55em;
+    }
+    .money{
+      font-size: 1.75em;
+      color: #216C2A;
+    }
 
+    .bold{
+      font-weight: bold;
+    }
 
+    #text{
+      font-size: .75em;
+    }
+    #icons{
+      font-size: 3.55em;
+      padding-bottom: 35px;
+    }
+    ul{
+      list-style-image: url("/images/logo/red_heart.png");
+    }
+    #learning_img{
+      padding: 0;
+      margin: 0;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 
+  #what_is_microblading, #what_you_should_do, #what_you_get, #est_earnings, #what_you_will_learn, #register_today{
+    padding: 50px 0;
+  }
+
+  #what_is_microblading{
+
+  }
+
+  #what_you_should_do, #register_today{
+    background-color: $secondary_background_color;
+  }
+
+  #what_you_get{
+
+  }
+
+  #est_earnings{
+    background-image: url("/images/carousel/cut.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: $white_font_color;
+    h1{
+      padding-bottom: 5%;
+    }
+    p{
+      font-size: 2em;
+      padding-bottom: 5%;
+    }
+    #foot_note{
+      font-size: 1em;
+    }
+  }
+
+  #what_you_will_learn{
+
+  }
+
+  #register_today{
+    .btn{
+      margin-top: 2%;
+    }
+  }
 }
 
 
