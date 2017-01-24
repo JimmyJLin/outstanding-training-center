@@ -65,10 +65,10 @@
     }
   }
   #right_container{
-    padding-left: 10%;
+    padding-left: 12%;
   }
   #center_container{
-    padding-left: 10%;
+    padding-left: 13%;
   }
 }
 
@@ -76,26 +76,117 @@
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-
+  #footer{
+    height: 210px;
+    #left_container{
+      margin-left: 17%;
+      padding-bottom: 5px;
+    }
+    #center_container{
+      margin-left: 28%;
+      padding-bottom: 5px;
+    }
+    #right_container{
+      margin-left: 23%;
+      padding-bottom: 5px;
+    }
+    #copyright{
+      p{
+        font-size: .9em;
+      }
+    }
+  }
 }
 // iPhone 5 & 5S
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-
+  #footer{
+    height: 210px;
+    #left_container{
+      margin-left: 8%;
+      padding-bottom: 5px;
+    }
+    #center_container{
+      margin-left: 27%;
+      padding-bottom: 5px;
+    }
+    #right_container{
+      margin-left: 22%;
+      padding-bottom: 5px;
+    }
+    #copyright{
+      p{
+        font-size: .8em;
+      }
+    }
+  }
 }
 // iPhone 6 & 6S
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
+  #footer{
+    height: 210px;
+    #left_container{
+      margin-left: 17%;
+      padding-bottom: 5px;
+    }
+    #center_container{
+      margin-left: 28%;
+      padding-bottom: 5px;
+    }
+    #right_container{
+      margin-left: 23%;
+      padding-bottom: 5px;
+    }
+    #copyright{
+      p{
+        font-size: .8em;
+      }
+    }
+  }
 }
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-
+  #footer{
+    height: 210px;
+    #left_container{
+      margin-left: 17%;
+      padding-bottom: 5px;
+    }
+    #center_container{
+      margin-left: 28%;
+      padding-bottom: 5px;
+    }
+    #right_container{
+      margin-left: 23%;
+      padding-bottom: 5px;
+    }
+    #copyright{
+      p{
+        font-size: .9em;
+      }
+    }
+  }
 }
 // Tablets
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
+  #footer{
+    height: 125px;
+    #center_container{
+      padding-left: 15%;
+    }
+    #copyright{
+      padding-top: 15px;
+      p{
+        font-size: 1em;
+      }
+    }
+  }
 }
 // Tablets - iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-
+  #footer{
+    #right_container{
+      padding-left: 13%;
+    }
+  }
 }
 /* Mobile & Tablet @media imports - ends */
