@@ -31,3 +31,7 @@ app.get('/about_us', (req, res) => {
 app.get('/contact', (req, res) => {
   res.render('pages/contact');
 });
+
+app.get('/faq', (req, res) => {
+  res.render('pages/faq');
+});

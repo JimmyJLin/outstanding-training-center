@@ -1,0 +1,90 @@
+<% layout('main') -%>
+<%
+  const faq = [
+    {
+      question: 'Question 1',
+      answer: 'Answer to Question 1',
+      heading: 'headingOne',
+      collapse: 'collapseOne'
+    },
+    {
+      question: 'Question 2',
+      answer: 'Answer to Question 2',
+      heading: 'headingTwo',
+      collapse: 'collapseTwo'
+    },
+    {
+      question: 'Question 3',
+      answer: 'Answer to Question 3',
+      heading: 'headingThree',
+      collapse: 'collapseThree'
+    },
+    {
+      question: 'Question 4',
+      answer: 'Answer to Question 4',
+      heading: 'headingFour',
+      collapse: 'collapseFour'
+    },
+    {
+      question: 'Question 5',
+      answer: 'Answer to Question 5',
+      heading: 'headingFive',
+      collapse: 'collapseFive'
+    },
+    {
+      question: 'Question 6',
+      answer: 'Answer to Question 6',
+      heading: 'headingSix',
+      collapse: 'collapseSix'
+    },
+    {
+      question: 'Question 7',
+      answer: 'Answer to Question 7',
+      heading: 'headingSeven',
+      collapse: 'collapseSeven'
+    },
+    {
+      question: 'Question 8',
+      answer: 'Answer to Question 8',
+      heading: 'headingEight',
+      collapse: 'collapseEight'
+    },
+    {
+      question: 'Question 9',
+      answer: 'Answer to Question 9',
+      heading: 'headingNine',
+      collapse: 'collapseNine'
+    },
+    {
+      question: 'Question 10',
+      answer: 'Answer to Question 10',
+      heading: 'headingTen',
+      collapse: 'collapseTen'
+    }
+  ];
+%>
+<div id="faq" class="container-fluid">
+  <h1>FAQs</h1>
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <% faq.forEach((el) => { %>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id='<%= el.heading %>'>
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href='#<%= el.collapse %>' aria-expanded="false" aria-controls='<%= el.collapse %>'>
+              <%= el.question %>
+            </a>
+          </h4>
+        </div>
+        <div id='<%= el.collapse %>' class="panel-collapse collapse" role="tabpanel" aria-labelledby='<%= el.heading %>'>
+          <div class="panel-body">
+            <%= el.answer %>
+          </div>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+
+  <!-- Register Partials -->
+  <%- include ../partials/register %>
+
+</div>

@@ -1,8 +1,7 @@
 $(() => {
   console.log('script file loaded');
-  // $('#est_earnings').on('hover', () => {
-  //   console.log('loading est_earnings');
-  // });
+
+  // onhover load interval counting up
   $('#est_earnings').hover(() => {
 
     const tuitionValue = document.getElementById('tuition');
