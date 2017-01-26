@@ -61,7 +61,7 @@
     }
   }
 
-  #what_is_microblading, #what_you_should_do, #what_you_get, #est_earnings, #what_you_will_learn, #register_today{
+  #what_is_microblading, #what_you_should_do, #what_you_get, #est_earnings, #what_you_will_learn, #seminar_info{
     padding: 50px 0;
   }
 
@@ -69,7 +69,7 @@
 
   }
 
-  #what_you_should_do, #register_today{
+  #what_you_should_do, #seminar_info{
     background-color: $secondary_background_color;
   }
 
@@ -83,6 +83,10 @@
     background-repeat: no-repeat;
     background-position: center;
     color: $white_font_color;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     h1{
       padding-bottom: 5%;
     }
@@ -98,7 +102,12 @@
   #what_you_will_learn{
 
   }
-
+  #seminar_info{
+    span{
+      font-size: 1em;
+      font-weight: bold;
+    }
+  }
 }
 
 
@@ -111,10 +120,10 @@
         font-size: 2em;
       }
       p{
-        font-size: 1em;
+        font-size: .9em;
       }
       .money{
-        font-size: 1.3em;
+        font-size: 1.1em;
       }
       #text{
         font-size: .5em;
@@ -130,10 +139,10 @@
         font-size: 2em;
       }
       p{
-        font-size: 1em;
+        font-size: .9em;
       }
       .money{
-        font-size: 1.3em;
+        font-size: 1.1em;
       }
       #text{
         font-size: .5em;
