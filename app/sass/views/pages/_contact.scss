@@ -7,7 +7,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   color: $grey_font_color;
-  
+
   h3{
     margin:0 auto;
     background-color: $main_background_color;
@@ -21,6 +21,14 @@
   h1{
     text-align: center;
     padding-bottom: 25px;
+  }
+  h4{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 1.35em;
   }
   li{
     list-style: none;
