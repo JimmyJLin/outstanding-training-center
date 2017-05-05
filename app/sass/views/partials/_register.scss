@@ -4,10 +4,11 @@
 #register_today{
   padding: 50px 0;
   background-color: $secondary_background_color;
+  color: $grey_font_color;
 
   h1{
     text-align: center;
-    font-size: 4.5em;
+    font-size: 3.5em;
     color: $dark_blue_color;
     font-weight: 500;
   }

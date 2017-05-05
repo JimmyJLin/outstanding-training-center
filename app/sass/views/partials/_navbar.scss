@@ -4,6 +4,7 @@
 // nav_bar stylings
 #nav_bar{
   padding: 0 15px;
+  color: $grey_font_color;
 
   #image_logo{
     img{
@@ -23,6 +24,13 @@
     span{
       padding-left: 5px;
       padding-top: 5px;
+    }
+  }
+
+  .navbar-right{
+    a:hover{
+      text-decoration: underline;
+      text-decoration-color: $light_blue_color;
     }
   }
 }
