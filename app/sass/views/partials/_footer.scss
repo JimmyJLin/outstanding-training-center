@@ -4,7 +4,7 @@
 #footer{
   padding-top: 25px;
   width: 100%;
-  height: 110px;
+  height: 100%;
   color: $grey_font_color;
   background-color: $footer_background_color;
 
@@ -44,7 +44,8 @@
   }
   #copyright{
     p{
-      padding-top: 10px;
+      padding-top: 25px;
+      padding-bottom: 50px;
       text-align: center;
       color: $footer_disclaimer_color;
     }
