@@ -4,7 +4,21 @@
 #register_today{
   padding: 50px 0;
   background-color: $secondary_background_color;
-  
+
+  h1{
+    text-align: center;
+    font-size: 4.5em;
+    color: $dark_blue_color;
+    font-weight: 500;
+  }
+
+  h4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
   p{
     text-align: center;
   }
@@ -15,4 +29,43 @@
   .btn{
     margin-top: 2%;
   }
+
+  #contact_us{
+    padding: 50px 50px;
+  }
+
+  #call_us{
+    // border-top: 5px solid $dark_blue_color;
+    .btn {
+      border-color: $dark_blue_color;
+      width: 250px;
+      background-color: $dark_blue_color;
+      color: $white_font_color;
+      box-shadow: 0 4px 4px -2px #232323;
+      -moz-box-shadow: 0 4px 4px -2px #232323;
+      -webkit-box-shadow: 0 4px 4px -2px #232323;
+      transition: all 2s ease;
+    }
+    .btn:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  #email_us{
+    // border-top: 5px solid $dark_red_color;
+    .btn {
+      border-color: $dark_red_color;
+      width: 250px;
+      background-color: $dark_red_color;
+      color: $white_font_color;
+      box-shadow: 0 4px 4px -2px #232323;
+      -moz-box-shadow: 0 4px 4px -2px #232323;
+      -webkit-box-shadow: 0 4px 4px -2px #232323;
+      transition: all 2s ease;
+    }
+    .btn:hover{
+      transform: scale(1.1);
+    }
+  }
+
 }
