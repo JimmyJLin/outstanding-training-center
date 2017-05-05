@@ -1,6 +1,6 @@
 $(() => {
   console.log('script file loaded');
-  
+
   $('#est_earnings').on('touchmove', () => {
     const tuitionValue = document.getElementById('tuition');
 
@@ -14,7 +14,7 @@ $(() => {
     const tutionEnd = 1800;
     const costEnd = 500;
     const weeklyEnd = 2500;
-    const annualEnd = 13000;
+    const annualEnd = 130000;
 
     const duration = 500; // In milliseconds (divide by 1000 to get seconds).
     const framerate = 5;    // In milliseconds (divide by 1000 to get seconds).
@@ -87,7 +87,7 @@ $(() => {
     const tutionEnd = 1800;
     const costEnd = 500;
     const weeklyEnd = 2500;
-    const annualEnd = 13000;
+    const annualEnd = 130000;
 
     const duration = 500; // In milliseconds (divide by 1000 to get seconds).
     const framerate = 5;    // In milliseconds (divide by 1000 to get seconds).
