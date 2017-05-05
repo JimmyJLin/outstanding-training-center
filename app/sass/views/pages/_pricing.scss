@@ -1,0 +1,195 @@
+// import variables
+@import "variables";
+
+
+// index landing page
+#pricing{
+  background-color: $secondary_background_color;
+  padding-bottom: 100px;
+  padding-top: 90px;
+
+  h1{
+    text-align: center;
+    font-size: 4.5em;
+    color: $dark_blue_color;
+    font-weight: 500;
+  }
+
+  h4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  #price_list{
+    text-align: center;
+    padding: 50px 50px;
+
+    .text-center{
+      padding-top: 25px;
+    }
+    .class_type{
+      padding-top: 15px
+    }
+    .btn{
+      border-style: solid;
+      border-width: 2px;
+    }
+    .dollar_sign{
+      font-size: .5em;
+    }
+    .seminar_price{
+      font-size: 4em;
+    }
+    .seminar_length, .seminar_model, .seminar_starterkit, .seminar_extras, .seminar_membership{
+      #title{
+        font-size: 1.25em;
+        font-weight: 500;
+      }
+    }
+    .seminar_equipment{
+      font-size: 1.25em;
+      font-weight: 500;
+    }
+
+    #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+      padding-top: 15px;
+      padding-bottom: 25px;
+
+      -webkit-transition: background-color 1.5s ease-out;
+      -moz-transition: background-color 1.5s ease-out;
+      -o-transition: background-color 1.5s ease-out;
+      transition: background-color 1.5s ease-out;
+    }
+
+    #hairstrokes{
+      border-top: 5px solid $dark_blue_color;
+      .btn {
+        border-color: $dark_blue_color;
+      }
+      .btn:hover{
+        background-color: $dark_blue_color;
+        color: $white_font_color;
+      }
+      .seminar_price{
+        color: $dark_blue_color;
+      }
+    }
+    #lips{
+      border-top: 5px solid $dark_red_color;
+      .btn {
+        border-color: $dark_red_color;
+      }
+      .btn:hover{
+        background-color: $dark_red_color;
+        color: $white_font_color;
+      }
+      .seminar_price{
+        color: $dark_red_color;
+      }
+      .text-center{
+        padding-top: 100px;
+      }
+    }
+    #eyeliner{
+      border-top: 5px solid $light_blue_color;
+      .btn {
+        border-color: $light_blue_color;
+      }
+      .btn:hover{
+        background-color: $light_blue_color;
+        color: $white_font_color;
+      }
+      .seminar_price{
+        color: $light_blue_color;
+      }
+      .text-center{
+        padding-top: 100px;
+      }
+    }
+    #areola{
+      border-top: 5px solid $orange_color;
+      .btn {
+        border-color: $orange_color;
+      }
+      .btn:hover{
+        background-color: $orange_color;
+        color: $white_font_color;
+      }
+      .seminar_price{
+        color: $orange_color;
+      }
+      .text-center{
+        padding-top: 100px;
+      }
+    }
+    #hairline{
+      border-top: 5px solid $purple_color;
+      .btn {
+        border-color: $purple_color;
+      }
+      .btn:hover{
+        background-color: $purple_color;
+        color: $white_font_color;
+      }
+      .seminar_price{
+        color: $purple_color;
+      }
+      .text-center{
+        padding-top: 100px;
+      }
+    }
+    #powdered{
+      border-top: 5px solid $pink_color;
+      .btn {
+        border-color: $pink_color;
+      }
+      .btn:hover{
+        background-color: $pink_color;
+        color: $white_font_color;
+      }
+      .seminar_price{
+        color: $pink_color;
+      }
+      .text-center{
+        padding-top: 100px;
+      }
+    }
+
+    #hairstrokes:hover, #lips:hover, #eyeliner:hover, #areola:hover, #hairline:hover, #powdered:hover {
+      background-color: $white_font_color;
+    }
+  }
+
+
+
+}
+
+
+/* Mobile & Tablet @media imports - starts */
+// iPhone 4
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 5 & 5S
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6 & 6S
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6plus
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+// Tablets
+@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+// Tablets - iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+}
+/* Mobile & Tablet @media imports - ends */
