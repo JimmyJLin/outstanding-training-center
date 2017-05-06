@@ -45,7 +45,7 @@
   #copyright{
     p{
       padding-top: 25px;
-      padding-bottom: 50px;
+      padding-bottom: 25px;
       text-align: center;
       color: $footer_disclaimer_color;
     }
@@ -80,7 +80,6 @@
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   #footer{
-    height: 210px;
     #left_container{
       margin-left: 17%;
       padding-bottom: 5px;
@@ -103,7 +102,6 @@
 // iPhone 5 & 5S
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   #footer{
-    height: 210px;
     #left_container{
       margin-left: 8%;
       padding-bottom: 5px;
@@ -126,7 +124,6 @@
 // iPhone 6 & 6S
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   #footer{
-    height: 210px;
     #left_container{
       margin-left: 17%;
       padding-bottom: 5px;
@@ -149,7 +146,6 @@
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   #footer{
-    height: 210px;
     #left_container{
       margin-left: 17%;
       padding-bottom: 5px;
@@ -172,7 +168,6 @@
 // Tablets
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   #footer{
-    height: 125px;
     #center_container{
       padding-left: 15%;
     }

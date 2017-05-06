@@ -23,6 +23,12 @@
   p{
     text-align: center;
   }
+
+  a:hover{
+    text-decoration: none;
+    border-bottom: 3px solid $light_blue_color;
+  }
+
   #icons{
     font-size: 3.55em;
     padding-bottom: 35px;
@@ -70,3 +76,74 @@
   }
 
 }
+
+
+
+/* Mobile & Tablet @media imports - starts */
+// iPhone 4
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  h4 {
+    padding: 25px 10px !important;
+  }
+  #call_us, #email_us{
+    .btn{
+      width: 150px !important;
+    }
+    p, a{
+      font-size: .75em;
+      text-align: center !important;
+    }
+  }
+
+}
+// iPhone 5 & 5S
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  h4 {
+    padding: 25px 10px !important;
+  }
+  #call_us, #email_us{
+    .btn{
+      width: 175px !important;
+    }
+    p, a{
+      font-size: .75em;
+      text-align: center !important;
+    }
+  }
+
+}
+// iPhone 6 & 6S
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  #call_us, #email_us{
+    .btn{
+      width: 225px !important;
+    }
+  }
+
+}
+// iPhone 6plus
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+  h4 {
+    padding: 25px 10px !important;
+  }
+
+}
+// Tablets
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+// Tablets - iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+  #call_us, #email_us{
+    .btn{
+      padding-bottom: 7px !important;
+    }
+  }
+
+}
+/* Mobile & Tablet @media imports - ends */

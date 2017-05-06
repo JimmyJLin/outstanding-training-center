@@ -29,8 +29,7 @@
 
   .navbar-right{
     a:hover{
-      text-decoration: underline;
-      text-decoration-color: $light_blue_color;
+      border-bottom: 3px solid $light_blue_color;
     }
   }
 }
