@@ -1,0 +1,198 @@
+// import variables
+@import "variables";
+
+
+// index landing page
+#seminars{
+  background-color: $secondary_background_color;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: $grey_font_color;
+
+  h1{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: 3em;
+    color: $dark_blue_color;
+    font-weight: 500;
+  }
+
+  h3{
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  h4{
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  p{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .btn{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  #seminar_img{
+    padding: 0;
+    margin: 0;
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+  #seminar_text{
+    height: 175px;
+  }
+
+  #seminars_list{
+    padding: 25px 50px;
+  }
+
+  #hairstrokes{
+    h4{
+      color: $dark_blue_color;
+      font-weight: bold;
+    }
+    border-top: 5px solid $dark_blue_color;
+    .btn {
+      border-color: $dark_blue_color;
+    }
+    .btn:hover{
+      background-color: $dark_blue_color;
+      color: $white_font_color;
+    }
+  }
+
+  #powdered{
+    h4{
+      color: $pink_color;
+      font-weight: bold;
+    }
+    border-top: 5px solid $pink_color;
+    .btn {
+      border-color: $pink_color;
+    }
+    .btn:hover{
+      background-color: $pink_color;
+      color: $white_font_color;
+    }
+  }
+
+  #lips{
+    h4{
+      color: $dark_red_color;
+      font-weight: bold;
+    }
+    border-top: 5px solid $dark_red_color;
+    .btn {
+      border-color: $dark_red_color;
+    }
+    .btn:hover{
+      background-color: $dark_red_color;
+      color: $white_font_color;
+    }
+  }
+
+  #eyeliner{
+    h4{
+      color: $light_blue_color;
+      font-weight: bold;
+    }
+    border-top: 5px solid $light_blue_color;
+    .btn {
+      border-color: $light_blue_color;
+    }
+    .btn:hover{
+      background-color: $light_blue_color;
+      color: $white_font_color;
+    }
+  }
+
+  #hairline{
+    h4{
+      color: $purple_color;
+      font-weight: bold;
+    }
+    border-top: 5px solid $purple_color;
+    .btn {
+      border-color: $purple_color;
+    }
+    .btn:hover{
+      background-color: $purple_color;
+      color: $white_font_color;
+    }
+  }
+
+  #areola{
+    h4{
+      color: $orange_color;
+      font-weight: bold;
+    }
+    border-top: 5px solid $orange_color;
+    .btn {
+      border-color: $orange_color;
+    }
+    .btn:hover{
+      background-color: $orange_color;
+      color: $white_font_color;
+    }
+  }
+
+  #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+    -webkit-transition: background-color 1.5s ease-out;
+    -moz-transition: background-color 1.5s ease-out;
+    -o-transition: background-color 1.5s ease-out;
+    transition: background-color 1.5s ease-out;
+  }
+
+  #hairstrokes:hover, #lips:hover, #eyeliner:hover, #areola:hover, #hairline:hover, #powdered:hover {
+    background-color: $white_font_color;
+  }
+}
+
+
+/* Mobile & Tablet @media imports - starts */
+// iPhone 4
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 5 & 5S
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6 & 6S
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+// iPhone 6plus
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+// Tablets
+@media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+// Tablets - iPad Pro
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+
+}
+/* Mobile & Tablet @media imports - ends */

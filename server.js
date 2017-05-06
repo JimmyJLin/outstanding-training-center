@@ -39,3 +39,7 @@ app.get('/faq', (req, res) => {
 app.get('/pricing', (req, res) => {
   res.render('pages/pricing');
 });
+
+app.get('/seminars', (req, res) => {
+  res.render('pages/seminars');
+});
