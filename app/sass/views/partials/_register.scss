@@ -139,10 +139,8 @@
 // Tablets - iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
 
-  #call_us, #email_us{
-    .btn{
-      padding-bottom: 7px !important;
-    }
+  #contact_info{
+    margin-top: 50px;
   }
 
 }
