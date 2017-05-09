@@ -50,6 +50,7 @@
 
   #seminar_img{
     padding: 0;
+    padding-bottom: 15px;
     margin: 0;
     img{
       width: 100%;
@@ -173,26 +174,58 @@
 /* Mobile & Tablet @media imports - starts */
 // iPhone 4
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-
+  #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+    background-color: $white_font_color;
+    margin-bottom: 40px;
+  }
+  #seminars_list{
+    padding: 0px 10px !important;
+  }
 }
 // iPhone 5 & 5S
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-
+  #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+    background-color: $white_font_color;
+    margin-bottom: 40px;
+  }
+  #seminars_list{
+    padding: 0px 10px !important;
+  }
 }
 // iPhone 6 & 6S
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-
+  #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+    background-color: $white_font_color;
+    margin-bottom: 40px;
+  }
+  #seminars_list{
+    padding: 0px 10px !important;
+  }
 }
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-
+  #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+    background-color: $white_font_color;
+    margin-bottom: 40px;
+  }
+  #seminars_list{
+    padding: 0px 10px !important;
+  }
 }
 // Tablets
 @media only screen and (min-device-width: 736px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
+  #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+    background-color: $white_font_color;
+    border-right: 8px solid $secondary_background_color;
+    margin-bottom: 40px;
+  }
 }
 // Tablets - iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-
+  #hairstrokes, #lips, #eyeliner, #areola, #hairline, #powdered {
+    background-color: $white_font_color;
+    border-right: 8px solid $secondary_background_color;
+    margin-bottom: 40px;
+  }
 }
 /* Mobile & Tablet @media imports - ends */
