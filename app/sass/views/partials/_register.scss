@@ -89,10 +89,14 @@
   #call_us, #email_us{
     .btn{
       width: 150px !important;
+      transition: none !important;
     }
     p, a{
       font-size: .75em;
       text-align: center !important;
+    }
+    .btn:hover{
+      transform: none !important;
     }
   }
 
@@ -106,10 +110,14 @@
   #call_us, #email_us{
     .btn{
       width: 175px !important;
+      transition: none !important;
     }
     p, a{
       font-size: .75em;
       text-align: center !important;
+    }
+    .btn:hover{
+      transform: none !important;
     }
   }
 
@@ -120,13 +128,24 @@
   #call_us, #email_us{
     .btn{
       width: 225px !important;
+      transition: none !important;
+    }
+    .btn:hover{
+      transform: none !important;
     }
   }
 
 }
 // iPhone 6plus
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-
+  #call_us, #email_us{
+    .btn{
+      transition: none !important;
+    }
+    .btn:hover{
+      transform: none !important;
+    }
+  }
   h4 {
     padding: 25px 10px !important;
   }
@@ -134,11 +153,25 @@
 }
 // Tablets
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-
+  #call_us, #email_us{
+    .btn{
+      transition: none !important;
+    }
+    .btn:hover{
+      transform: none !important;
+    }
+  }
 }
 // Tablets - iPad Pro
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
-
+  #call_us, #email_us{
+    .btn{
+      transition: none !important;
+    }
+    .btn:hover{
+      transform: none !important;
+    }
+  }
   #contact_info{
     margin-top: 50px;
   }
