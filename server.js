@@ -43,3 +43,7 @@ app.get('/pricing', (req, res) => {
 app.get('/seminars', (req, res) => {
   res.render('pages/seminars');
 });
+
+app.get('/*', (req, res) => {
+  res.render('pages/404');
+})

@@ -1,0 +1,21 @@
+// import variables
+@import "variables";
+
+#error404{
+  margin-top: 60px;
+  height: 62vh;
+
+  img{
+    width: 400px;
+    height: auto;
+  }
+  #title{
+    font-size: 2.3em;
+  }
+  #contents{
+    font-size: .8em;
+  }
+  p{
+    text-align: center;
+  }
+}
