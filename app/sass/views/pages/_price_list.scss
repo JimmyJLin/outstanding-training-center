@@ -1,0 +1,24 @@
+// import variables
+@import "variables";
+
+#price_list{
+  height: 70vh;
+  padding-top: 60px;
+
+  h1, h4 {
+    text-align: center;
+  }
+  .btn-group{
+    margin-top: 25px;
+  }
+  .center-block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+}

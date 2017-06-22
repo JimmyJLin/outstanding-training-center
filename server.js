@@ -44,6 +44,10 @@ app.get('/seminars', (req, res) => {
   res.render('pages/seminars');
 });
 
+app.get('/price_list', (req, res) => {
+  res.render('pages/price_list');
+});
+
 app.get('/*', (req, res) => {
   res.render('pages/404');
 })
